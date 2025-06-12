@@ -1,0 +1,288 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Shafqat F. Ehsan
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Shafqat F.\ Ehsan} \\ \vspace{2pt}
+    \small Houston, TX $|$ \href{mailto:sfehsan@mdanderson.org}{\underline{sfehsan@mdanderson.org}} $|$ 
+    \href{https://linkedin.com/in/ShafqatEhsan}{\underline{linkedin.com/in/ShafqatEhsan}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Doctor of Philosophy, Biomedical Sciences}{Houston, TX}
+      {UT MD Anderson UTHealth Houston GSBS, Quantitative Sciences – Systems Biology}{Aug. 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Thesis: \emph{Mapping Resistant Mechanisms to Chemoradiotherapy and Identification of Novel Radiosensitizing Drugs for Cervical Cancer using Systems Biology Approaches}}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Bachelor of Science (Hons.), Bioinformatics}{San Antonio, TX}
+      {St.\ Mary’s University}{Aug. 2018 -- May 2022}
+      \resumeItemListStart
+        \resumeItem{Minor: Biology; Thesis: \emph{Identifying Molecular Markers for Early Detection of Toxic Dinoflagellates \& Cyanobacteria}}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Graduate Student Researcher}{May 2023 -- Present}
+      {UT MD Anderson Cancer Center}{Houston, TX}
+      \resumeItemListStart
+        \resumeItem{Advisors: Lauren E.\ Colbert, MD, MSCR \& Loukia G.\ Karacosta, PhD}
+        \resumeItem{Aim 1: Identify and validate genomic signatures of radiation resistance in cervical cancer}
+        \resumeItem{Aim 2: Develop single‐cell phenotypic reference maps to guide targeted radiosensitization}
+        \resumeItem{Aim 3: Repurpose clinically approved drugs as potential radiosensitizers}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Student Researcher (Rotation)}{Mar. 2023 -- May 2023}
+      {UT MD Anderson Cancer Center}{Houston, TX}
+      \resumeItemListStart
+        \resumeItem{Advisor: Loukia G.\ Karacosta, PhD}
+        \resumeItem{Evaluated MUC1 activity in circulating tumor cells and cell lines of small cell lung cancer}
+        \resumeItem{Performed CyTOF, immunohistochemistry and single‐cell proteomic analysis}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Student Researcher (Rotation)}{Oct. 2022 -- Dec. 2022}
+      {UT MD Anderson Cancer Center}{Houston, TX}
+      \resumeItemListStart
+        \resumeItem{Advisors: Nidhi Sahni, PhD \& Daniel McGrail, PhD}
+        \resumeItem{Co‐developed bioinformatics pipeline for massively parallel reporter assays}
+        \resumeItem{Analyzed CRISPR screen data using MAGeCK}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Student Researcher}{Aug. 2020 -- May 2022}
+      {St.\ Mary’s University}{San Antonio, TX}
+      \resumeItemListStart
+        \resumeItem{Advisor: Erika Schwarz Taylor, PhD}
+        \resumeItem{Identified saxitoxin gene clusters as probes for early detection of toxic algae}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CPRIT‐CURE Summer Research Fellow}{Jun. 2021 -- Aug. 2021}
+      {UT MD Anderson Cancer Center}{Houston, TX}
+      \resumeItemListStart
+        \resumeItem{Advisor: Robert C.\ Bast, MD}
+        \resumeItem{Investigated FGFR inhibition by infigratinib as a potential therapeutic in ovarian cancer}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Student Researcher}{Aug. 2018 -- Jul. 2020}
+      {St.\ Mary’s University}{San Antonio, TX}
+      \resumeItemListStart
+        \resumeItem{Mentor: Verónica Contreras‐Shannon, PhD}
+        \resumeItem{Studied effects of mechanical pressure on β‐tubulin isoform expression}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Summer Student Researcher}{May 2019 -- Jul. 2019}
+      {Bowling Green State University}{Bowling Green, OH}
+      \resumeItemListStart
+        \resumeItem{Advisors: Mikhail Zamkov, PhD \& Dmitriy Khon, PhD}
+        \resumeItem{Synthesized colloidal quantum dot alloys; co‐authored Nano Letters publication}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Peer‐Reviewed Publications}
+  \resumeItemListStart
+    \resumeItem{\textbf{Bhattacharyya, S.*}, \textbf{Ehsan, S.\ F.*}, \& Karacosta, L.\ G.\ (2023). Phenotypic Maps for Precision Medicine… \emph{Frontiers in Network Physiology}, 3, 1256104.}
+    \resumeItem{Cassidy, J., Yang, M., Harankahage, D., … \textbf{Ehsan, S.\ F.}, … Zamkov, M.\ (2021). Tuning the Dimensionality of Excitons… \emph{Nano Letters}, 21(17), 7339--7346.}
+    \resumeItem{Ehsan, S.\ F.\ (2022). Identifying Molecular Markers for Early Detection of Toxic Cyanobacteria and Dinoflagellates. Honors Thesis.}
+  \resumeItemListEnd
+
+%-----------CONFERENCE ABSTRACTS-----------
+\section{Conference Abstracts}
+  \resumeItemListStart
+    \resumeItem{\textbf{Ehsan, S.\ F.}, Wang, R., Wu, X., … Colbert, L.\ E.\ (2024). Abstract A029: DDR pathway genes in CRT resistance… \emph{Cancer Research}, 84(1\_Supplement), A029.}
+    \resumeItem{Bhattacharyya, S., … \textbf{Ehsan, S.\ F.}, … Karacosta, L.\ G.\ (2023). Abstract LB\_B05: Mapping therapy resistant phenotypes… \emph{Molecular Cancer Therapeutics}, 22(12\_Supplement), LB\_B05.}
+    \resumeItem{\textbf{Ehsan, S.\ F.}, Santiago‐O’Farrill, J.\ M., Lu, Z., \& Bast, R.\ C.\ (2021). FGFR as a Potential Target for Eliminating Dormant Autophagic Ovarian Cancer Cells.}
+  \resumeItemListEnd
+
+%-----------POSTER PRESENTATIONS-----------
+\section{Poster Presentations}
+  \resumeItemListStart
+    \resumeItem{Cancer Systems Imaging Annual Retreat, Galveston, May 2024: Multi‐omics from cytobrush to identify genes linked to treatment resistance.}
+    \resumeItem{Quantitative Sciences Retreat, MDACC GSBS, Apr 2024: Longitudinal WES in cervical cancer identifies radiosensitizer targets.}
+    \resumeItem{AACR DDR Conference, Washington DC, Jan 2024: DDR pathway genes in CRT resistance.}
+    \resumeItem{AACR NCI‐EORTC Conference, Oct 2023: Mapping therapy‐resistant phenotypes in SCLC liquid biopsies.}
+    \resumeItem{Cancer Systems Imaging Retreat, Galveston, May 2023: Phenotypic plasticity and therapy resistance in SCLC organoids.}
+    \resumeItem{St.\ Mary’s Summer Research Symposium, Aug 2021: FGFR inhibition in ovarian cancer cells.}
+    \resumeItem{CPRIT‐CURE Poster Program, Aug 2021: FGFR as therapeutic target.}
+    \resumeItem{St.\ Mary’s SET Symposium, Nov 2020: Drosophila muller F element annotation.}
+    \resumeItem{St.\ Mary’s SET Symposium, Nov 2019: Magnesium \& calcium effects on PETase.}
+    \resumeItem{St.\ Mary’s Summer Research, Aug 2019: Digestive ripening of quantum dot alloys.}
+    \resumeItem{St.\ Mary’s Research Symposium, Apr 2019: Differentially regulated miRNAs in thyroid cancer.}
+  \resumeItemListEnd
+
+%-----------AWARDS-----------
+\section{Academic Awards}
+  \resumeItemListStart
+    \resumeItem{GSBS Student Travel Award (\$350), AACR Conference, 2023--24}
+    \resumeItem{QS Student Travel Award (\$500), AACR Conference, 2023--24}
+    \resumeItem{Runner‐Up, Pre‐Candidacy Poster, Quantitative Sciences Retreat, Apr 2024}
+    \resumeItem{Runner‐Up, Pre‐Candidacy Poster, Cancer Biology Symposium, Mar 2023}
+    \resumeItem{St.\ Mary’s University Alumni Scholar Award, 2019 \& 2020}
+    \resumeItem{Health Science Award, St.\ Mary’s University, 2019--22}
+    \resumeItem{Dean’s List, St.\ Mary’s SET, 8 consecutive semesters}
+  \resumeItemListEnd
+
+%-----------INVITED TALKS-----------
+\section{Invited Talks}
+  \resumeItemListStart
+    \resumeItem{SPDR Seminar, Dept.\ Experimental Radiation Oncology, MDACC, Feb 27 2025: Phenotypic Mapping of CRT Resistance \& Radiosensitizers.}
+    \resumeItem{GYN Research Seminar, Div.\ Radiation Oncology, MDACC, Jan 17 2024: Genetic Determinants of CRT Resistance.}
+    \resumeItem{Cancer Biology Symposium, GSBS, Mar 24 2023: Markers of Radiation Sensitization.}
+    \resumeItem{Genetics \& Epigenetics Talks, GSBS, Dec 14 2022: Functional Genomic Approaches with CRISPR \& MPRA.}
+  \resumeItemListEnd
+
+%-----------FELLOWSHIPS-----------
+\section{Fellowships}
+  \resumeItemListStart
+    \resumeItem{Spring Research Fellowship, MARC‐U*STAR Program, St.\ Mary’s University, Spring 2020 \& Spring 2021}
+    \resumeItem{Baggini Scholar Fellowship, Dept.\ Biological Sciences, St.\ Mary’s University, 2021--22}
+  \resumeItemListEnd
+
+%-----------LEADERSHIP-----------
+\section{Leadership}
+  \resumeItemListStart
+    \resumeItem{Elected Student Representative, QS Steering Committee, MDACC GSBS, 2024--25}
+    \resumeItem{Member, QS Student Council, MDACC GSBS, 2023--24}
+    \resumeItem{Co‐founder \& President, Ready, SET, Research!, St.\ Mary’s University, 2019--22}
+  \resumeItemListEnd
+
+%-----------PROFESSIONAL DEVELOPMENT-----------
+\section{Professional Development}
+  \resumeSubHeadingListStart
+    \resumeSubSubheading{AACR DDR Conference}{Jan 2024}
+    \resumeSubSubheading{ABRCMS (Virtual)}{Nov 2021}
+    \resumeSubSubheading{Experimental Biology (Virtual)}{Apr 2021}
+    \resumeSubSubheading{FIE‐SGLC (Virtual)}{Apr 2021}
+    \resumeSubSubheading{ABRCMS (Virtual)}{Nov 2020}
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH WORKSHOPS-----------
+\section{Research Workshops}
+  \resumeItemListStart
+    \resumeItem{Virtual SMART Seminar Series, Baylor College of Medicine, 2020}
+    \resumeItem{MARC U*STAR Research Workshops, St.\ Mary’s University, Jun–Jul 2020}
+  \resumeItemListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Big Data Analysis}{: CRISPR screen, CyTOF, NGS (WES, bulk \& single‐cell RNA/DNA)} \\
+      \textbf{Programming}{: R, Python, C, Unix Shell, HPC} \\
+      \textbf{Lab Techniques}{: Aseptic cell culture, Western blot, PCR, sequencing library prep}
+    }}
+  \end{itemize}
+
+%-----------TEACHING EXPERIENCE-----------
+\section{Teaching Experience}
+  \resumeItemListStart
+    \resumeItem{Learning Strategist, St.\ Mary’s University, Aug 2019 -- May 2022: Led review sessions and peer mentoring in Biology, Bioinformatics, Genetics \& Genomics.}
+  \resumeItemListEnd
+
+%-----------REFERENCES-----------
+\section{References}
+  \resumeItemListStart
+    \resumeItem{Lauren E.\ Colbert, MD, MSCR — Assistant Professor, Radiation Oncology, MD Anderson Cancer Center\\\href{mailto:lcolbert@mdanderson.org}{lcolbert@mdanderson.org}}
+    \resumeItem{Loukia G.\ Karacosta, PhD — Assistant Professor, Cancer Systems Imaging, MD Anderson Cancer Center\\\href{mailto:lgkaracosta@mdanderson.org}{lgkaracosta@mdanderson.org}}
+    \resumeItem{Robert C.\ Bast, MD — Vice President for Translational Research, MD Anderson Cancer Center\\\href{mailto:rbast@mdanderson.org}{rbast@mdanderson.org}}
+  \resumeItemListEnd
+
+\end{document}
